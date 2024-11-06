@@ -4,13 +4,6 @@
 
 Create innovative products using Gebeta Maps and win amazing prizes! This 2-week online hackathon challenges developers to build creative solutions using Gebeta Maps' powerful mapping infrastructure.
 
-## 🗓️ Important Dates
-
-- **Registration Opens**: Oct 27th, 2024
-- **Registration Ends**: Nov 6th, 2024
-- **Hackathon Starts**: Nov 7th, 2024
-- **Project Submission Deadline**: Nov 10th, 2024
-- **Winners announced** + ✨ **Prizes** ✨ : Nov 16/17th, 2024
 
 ## 🎯 About the Hackathon
 
