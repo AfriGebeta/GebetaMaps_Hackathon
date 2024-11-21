@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets-/g-wide.svg" alt="Go Find Taxi Logo" width="261" height="55"/>
+</p>
+
 # Go Find Taxi 🚕
 
 A Flutter-based mobile application designed to help Ethiopian commuters easily locate and navigate traditional bus taxi routes.
@@ -100,6 +104,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Acknowledgments 🙏
 
 - GebetaMaps for providing the mapping API 
+- [Trufi Association](https://trufi-association.org/#projects) for inspiration and APIs for informal transport solutions
+  - Used their open-source APIs and tools for public transport routing
+  - Based on their proven solutions for informal transportation systems
 
 ## Contact 📧
 
