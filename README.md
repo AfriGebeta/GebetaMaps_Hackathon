@@ -1,72 +1,109 @@
-# Gebeta Maps Hackathon
+# Go Find Taxi 🚕
 
-![Gebeta Maps Logo](./assets/g-wide.svg)
+A Flutter-based mobile application designed to help Ethiopian commuters easily locate and navigate traditional bus taxi routes.
 
-Create innovative products using Gebeta Maps and win amazing prizes! This 2-week online hackathon challenges developers to build creative solutions using Gebeta Maps' powerful mapping infrastructure.
+## Problem Statement 🎯
 
-## 🗓️ Important Dates
+In Ethiopia, affordable public transportation options, such as traditional bus taxis, play a vital role in daily commuting. However, locating these taxis, particularly for less familiar routes, can be challenging due to:
 
-- **Registration Opens**: Oct 27th, 2024
-- **Registration Ends**: Nov 6th, 2024
-- **Hackathon Starts**: Nov 7th, 2024
-- **Project Submission Deadline**: Nov 14th, 2024
-- **Winners announced** + ✨ **Prizes** ✨ : Nov 16/17th, 2024
+- Lack of centralized information
+- No real-time updates on taxi locations
+- Difficulty finding correct pick-up points
+- Limited knowledge of routes for unfamiliar destinations
+- Time wasted waiting at incorrect stops
 
-## 🎯 About the Hackathon
+GoFindTaxi seeks to address these issues by offering a user-friendly platform that enables commuters to locate traditional bus taxis in real-time, access detailed information about popular routes, and receive personalized recommendations.
 
-Join us for an exciting 2-week online hackathon where you'll leverage Gebeta Maps to create innovative products. We provide all the necessary tooling and infrastructure - you bring your creativity and skills!
+## Features ✨
 
-### Key Features
-- 🚀 2 weeks to develop and submit your demo
-- 🏆 Win prizes and get featured on our blog
-- 🛠️ All necessary tools and infrastructure provided
-- 💡 Build with Gebeta Maps' powerful mapping platform
+- **Location Search**: Search for any location and find nearby taxi stations
+- **Route Planning**: Get optimal routes between your location and Taxi Place
+- **Price Estimation**: View estimated taxi fares for your journey
+## GebetaMaps API Integration 🗺️
 
-## 🏆 Prizes
+The project utilizes GebetaMaps API for the following services:
 
-1. **First Place**
-   - Featured on Gebeta Maps Blog
-   - 6 Months Free Hosting
+### Direction Service
+- Calculates optimal public transport routes
+- Identifies traditional taxi routes between locations
+- Provides estimated travel times
 
-2. **Second Place**
-   - 3 Months Free Hosting
+### Geocoding Service
+- Converts location names to coordinates
+- Enables search functionality for destinations
+- Identifies nearby landmarks for pick-up points
 
-3. **Third Place**
-   - 1 Month Free Hosting
+### Reverse Geocoding
+- Converts coordinates to readable addresses
+- Helps identify current location context
+- Provides landmark references for users
 
-## 📋 Requirements
+## Getting Started 🚀
 
-### Technical Requirements
-- Must use Gebeta Maps API
-- Projects must be original work
-- Code should be built on a fork of this template repo and submitted as a PR 
-- Demo must be accessible online
+### Prerequisites
+- Flutter SDK (^3.5.1)
+- GebetaMaps API key
+- Git
 
-### Team Requirements
-- Individual or team participation allowed
-- Maximum team size: `NA` (go nuts)
-- Participants must register before the deadline
+### Installation
 
-## 🛠️ Getting Started
+1. Clone the repository
 
-1. **Register**
-   - Sign up [here](https://hackathon.gebeta.app/register)
-   - Form/join a team (optional)
+2. Create a `.env` file in the root directory:
+```
+GEBETA_MAPS_API_KEY=your_api_key_here
+```
 
-2. **Access Resources**
-   - Get your API keys [TBD]
-   - Review documentation [here](https://gebeta.app/#/documentation)
+3. Install dependencies
+```bash
+flutter pub get
+```
 
-3. **Build & Submit**
-   - Clone this repository (we ask that you dont try and change this README)
-   - Develop your solution
-   - Open a pull request before the deadline (Nov 35, 2024)
+4. Run the app
+```bash
+flutter run
+```
+
+## Required Permissions 📱
+
+- Location access
+- Internet connectivity
+- Background location updates
+
+## Future Enhancements 🔮
+
+1. **Real-time Taxi Tracking**
+   - Live updates of taxi locations
+   - Estimated arrival times
+
+2. **Community Features**
+   - User-contributed route information
+   - Route ratings and reviews
+   - Traffic updates
+
+3. **Enhanced Navigation**
+   - Turn-by-turn walking directions to pick-up points
+   - Alternative route suggestions
+   - Peak hours information
+
+4. **Accessibility Features**
+   - Voice guidance
+   - High contrast mode
+   - Screen reader optimization
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 
-## 📞 Support
 
-- Email: [info@gebeta.app]
+## Acknowledgments 🙏
+
+- GebetaMaps for providing the mapping API 
+
+## Contact 📧
+
+For any queries or suggestions, please open an issue in the repository.
 
 ---
-
-Organized by Gebeta Maps © 2023
+Made with ❤️ for Ethiopian commuters
