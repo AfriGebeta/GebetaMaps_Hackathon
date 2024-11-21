@@ -99,7 +99,15 @@ flutter run
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Download 📱
 
+You can download and test the latest version of Go Find Taxi:
+
+[<img src="https://img.shields.io/badge/Download-APK-green.svg?style=for-the-badge&logo=android" 
+      height="80"
+      alt="Download APK">](assets-/app-release.apk)
+
+> **Note:** Make sure to enable "Install from Unknown Sources" in your Android settings to install the APK.
 
 ## Acknowledgments 🙏
 
